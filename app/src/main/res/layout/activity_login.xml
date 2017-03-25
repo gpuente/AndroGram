@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:focusableInTouchMode="true"
         android:weightSum="1">
 
         <RelativeLayout
@@ -75,6 +76,33 @@
                     android:theme="@style/RaisedButtonDark"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
+                
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/dontHaveAccount"
+                        android:text="@string/dontHaveAccount"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/textsize_donthaveaccount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/createHere"
+                        android:text="@string/create_here"
+                        android:textSize="@dimen/textsize_donthaveaccount"
+                        android:textColor="@android:color/white"
+                        android:layout_toRightOf="@id/dontHaveAccount"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="goCreateAccount"/>
+
+                </RelativeLayout>
 
             </LinearLayout>
 

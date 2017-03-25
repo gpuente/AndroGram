@@ -5,4 +5,12 @@
     <string name="hint_username">Username</string>
     <string name="hint_password">Password</string>
     <string name="text_login_button">Login</string>
+    <string name="dontHaveAccount">Dont have an account?</string>
+    <string name="create_here"><u>Create here</u></string>
+    <string name="hint_email">Email</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_user">User</string>
+    <string name="hint_confirm_password">Repeat password</string>
+    <string name="text_login_createaccount">Join us</string>
+    <string name="toolbar_title_createaccount">Create account</string>
 </resources>
