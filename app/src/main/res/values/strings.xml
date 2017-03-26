@@ -12,4 +12,8 @@
     <string name="hint_confirm_password">Confirmar contraseña</string>
     <string name="text_login_createaccount">Únete</string>
     <string name="toolbar_title_createaccount">Crear cuenta</string>
+    <string name="username_card">Guillermo Puente</string>
+    <string name="firstword_card">Hace</string>
+    <string name="timecard_card">4 días</string>
+    <string name="likenumber_card">10 Me Gusta</string>
 </resources>
