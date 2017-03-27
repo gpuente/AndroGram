@@ -73,6 +73,7 @@
                 <Button
                     android:id="@+id/login"
                     android:text="@string/text_login_button"
+                    android:onClick="goHome"
                     android:theme="@style/RaisedButtonDark"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>

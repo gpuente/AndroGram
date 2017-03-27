@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.guillermopuente.androgram.view.RegisterActivity;
+import com.guillermopuente.androgram.view.ContainerActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -17,6 +18,11 @@ public class LoginActivity extends AppCompatActivity {
 
     public void goCreateAccount(View view){
         Intent intent = new Intent(this, RegisterActivity.class);
+        startActivity(intent);
+    }
+
+    public void goHome(View view){
+        Intent intent = new Intent(this, ContainerActivity.class);
         startActivity(intent);
     }
 }
